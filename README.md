@@ -96,11 +96,14 @@ O projeto é composto por uma única página HTML (`index.html`) com exemplos pr
    - `nowrap`: Os itens permanecem em uma única linha.
    - `wrap`: Os itens quebram para a próxima linha se necessário.
    - `wrap-reverse`: As linhas são empilhadas na direção oposta.
-  
+
+**Colaboradores**
      <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/172075258?v=4" width="100px;" alt=""/><br /><sub><b>Kauã Alencar</b></sub></a><br /><a href="[https://rocketseat.com.br/](https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/)" title="Linkedin">👨‍🚀</a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/4669899?s=460&u=806503605676192b5d0c363e4490e13d8127ed64&v=4" width="100px;" alt=""/><br /><sub><b>Cleiton Souza</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">👨‍🚀</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/172075258?v=4" width="100px;" alt=""/><br /><sub><b>Kauã Alencar</b></sub></a><br /><a href="(https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/)" title="Linkedin">🚀</a></td>
+   <td align="center"><a href="https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/172075258?v=4" width="100px;" alt=""/><br /><sub><b>Kauã Alencar</b></sub></a><br /><a href="(https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/)" title="Linkedin">🚀</a></td>
+   <td align="center"><a href="https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/172075258?v=4" width="100px;" alt=""/><br /><sub><b>Kauã Alencar</b></sub></a><br /><a href="(https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/)" title="Linkedin">🚀</a></td>
+   <td align="center"><a href="https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/172075258?v=4" width="100px;" alt=""/><br /><sub><b>Kauã Alencar</b></sub></a><br /><a href="(https://www.linkedin.com/in/kau%C3%A3-alencar-b15119215/)" title="Linkedin">🚀</a></td>
     
   </tr>
 </table>

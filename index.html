@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POC FLEXBOX</title>
+    <style>
+
+        h1{
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #333;
+            height: 100px;
+        }
+        
+        .box {
+            background-color: red;
+            color: black;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+
+        .align-container {
+            height: 150px;
+        }
+
+        .self-align-container {
+            height: 200px;
+            
+        }
+
+        .flex-direction-container {
+            height: auto;
+        }
+
+        .box.baseline {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>POC FLEXBOX</h1>
+    <h1>Justify-Content Exemplos:</h1>
+    <h2>justify-content: flex-start</h2>
+    <div class="container" style="justify-content: flex-start;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>justify-content: flex-end</h2>
+    <div class="container" style="justify-content: flex-end;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>justify-content: center</h2>
+    <div class="container" style="justify-content: center;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>justify-content: space-between</h2>
+    <div class="container" style="justify-content: space-between;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>justify-content: space-around</h2>
+    <div class="container" style="justify-content: space-around;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h1>Align-Items Exemplos:</h1>
+    <h2>align-items: flex-start</h2>
+    <div class="container align-container" style="align-items: flex-start;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>align-items: flex-end</h2>
+    <div class="container align-container" style="align-items: flex-end;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>align-items: center</h2>
+    <div class="container align-container" style="align-items: center;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>align-items: baseline</h2>
+    <div class="container align-container" style="align-items: baseline;">
+        <div class="box baseline">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box baseline">Elemento 3</div>
+    </div>
+
+    <h2>align-items: stretch</h2>
+    <div class="container align-container" style="align-items: stretch;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>align-self</h2>
+    <div class="container self-align-container">
+        <div class="box" style="align-self: flex-start;">Elemento 1 start</div>
+        <div class="box" style="align-self: center;">Elemento 2 center</div>
+        <div class="box" style="align-self: flex-end;">Elemento 3 end</div>
+    </div>
+
+    <h1>Flex-Direction Exemplos: </h1>
+
+    <h2>flex-direction: row</h2>
+    <div class="container flex-direction-container" style="flex-direction: row;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>flex-direction: row-reverse</h2>
+    <div class="container flex-direction-container" style="flex-direction: row-reverse;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>flex-direction: column</h2>
+    <div class="container flex-direction-container" style="flex-direction: column;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h2>flex-direction: column-reverse</h2>
+    <div class="container flex-direction-container" style="flex-direction: column-reverse;">
+        <div class="box">Elemento 1</div>
+        <div class="box">Elemento 2</div>
+        <div class="box">Elemento 3</div>
+    </div>
+
+    <h1>Função Order:</h1>
+    <div class="container flex-direction-container">
+        <div class="box" style="order: 3;">Elemento 1 order:3</div>
+        <div class="box" style="order: 1;">Elemento 2 order:1</div>
+        <div class="box" style="order: 2;">Elemento 3 order:2</div>
+    </div>
+
+</body>
+</html>

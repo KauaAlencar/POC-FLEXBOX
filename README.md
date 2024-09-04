@@ -1,52 +1,37 @@
-# POC-FLEXBOX
-POC Flexbox
-Este repositório contém uma prova de conceito (POC) para demonstrar as funcionalidades do Flexbox em CSS. O Flexbox é um modelo de layout unidimensional que facilita a criação de layouts flexíveis e responsivos.
+POC-FLEXBOX é um repositório criado para demonstrar as funcionalidades do Flexbox, uma técnica de layout que torna a criação de layouts flexíveis e responsivos muito mais fácil. O projeto contém uma única página HTML (index.html) com exemplos práticos que ilustram as principais propriedades do Flexbox. Aqui está um resumo das propriedades que são abordadas:
 
-Estrutura do Projeto
-O projeto consiste em uma única página HTML (index.html) que inclui exemplos práticos das principais propriedades do Flexbox. O objetivo é mostrar como cada propriedade afeta o layout dos elementos dentro de um container flexível.
+justify-content: Controla o alinhamento dos itens ao longo do eixo principal (horizontal por padrão).
 
-Conteúdo
+flex-start: Alinha os itens ao início do container.
+flex-end: Alinha os itens ao final do container.
+center: Alinha os itens no centro do container.
+space-between: Distribui os itens com espaço igual entre eles.
+space-around: Distribui os itens com espaço igual ao redor deles.
+align-items: Alinha os itens ao longo do eixo transversal (vertical por padrão).
 
-1. justify-content
-A propriedade justify-content alinha os itens ao longo do eixo principal (horizontal por padrão). Os exemplos abaixo mostram os diferentes valores que esta propriedade pode assumir:
+flex-start: Alinha os itens ao início do eixo transversal.
+flex-end: Alinha os itens ao final do eixo transversal.
+center: Alinha os itens no centro do eixo transversal.
+baseline: Alinha os itens pela linha de base do texto.
+stretch: Estica os itens para preencher o container.
+align-self: Permite que um item específico se alinhe de forma diferente dos outros itens no container.
 
-justify-content: flex-start: Alinha os itens ao início do container.
-justify-content: flex-end: Alinha os itens ao final do container.
-justify-content: center: Alinha os itens ao centro do container.
-justify-content: space-between: Distribui os itens com espaço igual entre eles.
-justify-content: space-around: Distribui os itens com espaço igual ao redor deles.
+flex-start, center, flex-end: Alinha o item ao início, centro ou final, respectivamente.
+flex-direction: Define a direção do eixo principal.
 
-2. align-items
-A propriedade align-items alinha os itens ao longo do eixo transversal (vertical por padrão). Os exemplos incluem:
+row: Alinha os itens em uma linha horizontal.
+row-reverse: Alinha os itens em uma linha horizontal na ordem inversa.
+column: Alinha os itens em uma coluna vertical.
+column-reverse: Alinha os itens em uma coluna vertical na ordem inversa.
+order: Define a ordem dos itens no container.
 
-align-items: flex-start: Alinha os itens ao início do container ao longo do eixo transversal.
-align-items: flex-end: Alinha os itens ao final do container ao longo do eixo transversal.
-align-items: center: Alinha os itens ao centro do container ao longo do eixo transversal.
-align-items: baseline: Alinha os itens ao longo da linha de base do texto.
-align-items: stretch: Estica os itens para preencher o container ao longo do eixo transversal.
+order: 1, order: 2, order: 3: Define a ordem em que os itens aparecem.
+flex-wrap: Controla se os itens devem quebrar para a próxima linha quando não há espaço suficiente.
 
-3. align-self
-A propriedade align-self permite que um item específico se alinhe de maneira diferente dos outros itens no container. Os exemplos mostram:
+nowrap: Os itens permanecem na mesma linha.
+wrap: Os itens quebram para a próxima linha se necessário.
+wrap-reverse: As linhas são empilhadas na direção oposta.
+flex-flow: Propriedade de atalho que combina flex-direction e flex-wrap.
 
-align-self: flex-start: Alinha o item ao início do container ao longo do eixo transversal.
-align-self: center: Alinha o item ao centro do container ao longo do eixo transversal.
-align-self: flex-end: Alinha o item ao final do container ao longo do eixo transversal.
-
-4. flex-direction
-A propriedade flex-direction define a direção do eixo principal e pode ter os seguintes valores:
-
-flex-direction: row: Alinha os itens em uma linha horizontal.
-flex-direction: row-reverse: Alinha os itens em uma linha horizontal na ordem inversa.
-flex-direction: column: Alinha os itens em uma coluna vertical.
-flex-direction: column-reverse: Alinha os itens em uma coluna vertical na ordem inversa.
-
-5. order
-A propriedade order define a ordem dos itens no container. Os itens são ordenados de acordo com o valor numérico definido:
-
-order: 1: O item aparece primeiro.
-order: 2: O item aparece segundo.
-order: 3: O item aparece por último.
-
-## Licença
-
-Este projeto está licenciado sob a MIT License.
+Sintaxe: flex-flow: <flex-direction> <flex-wrap>.
+O repositório é uma ótima maneira de ver como essas propriedades do Flexbox afetam o layout dos elementos em um container flexível. 

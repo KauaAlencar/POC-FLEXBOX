@@ -29,6 +29,17 @@ O projeto é composto por uma única página HTML (`index.html`) com exemplos pr
 
 ### **Conteúdo**
 
+| Propriedade       | Descrição                                                                                                                                   |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **justify-content** | Alinha os itens ao longo do eixo principal (normalmente horizontal).                                                                       |
+| **align-items**     | Alinha os itens ao longo do eixo transversal (geralmente vertical).                                                                        |
+| **align-self**      | Alinha um item específico de forma diferente dos outros itens no container.                                                                |
+| **flex-direction**  | Define a direção do eixo principal, determinando como os itens são organizados dentro do container.                                        |
+| **order**           | Controla a ordem dos itens no container, permitindo reordenar os itens visualmente.                                                        |
+| **flex-wrap**       | Decide se os itens devem quebrar para a próxima linha quando não há espaço suficiente, ou se devem permanecer em uma única linha.          |
+
+### **Detalhamento das Propriedades**
+
 1. **justify-content**
 
    A propriedade `justify-content` alinha os itens ao longo do eixo principal (normalmente horizontal). Aqui estão alguns valores que você pode usar:

@@ -16,7 +16,7 @@ Além disso, é bom ter um editor para trabalhar com o código, como [VSCode](ht
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/seu-usuario/nome-do-repositorio>
+$ git clone <https://github.com/KauaAlencar/POC-FLEXBOX>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd nome-do-repositorio

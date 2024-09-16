@@ -19,7 +19,7 @@ Além disso, é bom ter um editor para trabalhar com o código, como [VSCode](ht
 $ git clone <https://github.com/KauaAlencar/POC-FLEXBOX>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nome-do-repositorio
+$ cd POC-FLEXBOX
 
 # Instale as dependências (se aplicável)
 $ npm install
